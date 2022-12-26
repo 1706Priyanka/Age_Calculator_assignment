@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="white-container">
+        <div class="left">
+          <div class="bill">
+            <label class="bill1">Bill</label>
+            <br />
+            <input type="number" placeholder="0" id="bill" />
+          </div>
+          <div class="tip">
+            <br />
+            <label> Select Tip %</label>
+            <div class="tipButtons">
+              <button>5%</button>
+              <button>10%</button>
+              <button>15%</button>
+            </div>
+            <div class="tipButtons">
+              <button>25%</button>
+              <button>50%</button>
+              <input type="number" placeholder="Custom" id="customTip" />
+            </div>
+
+            <div>
+              <br />
+              <label>Number of people</label>
+              <br />
+              <input type="number" placeholder="0" id="noOfPeople" />
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="output">
+            <div class="tip-amount">
+              <p>Tip Amount</p>
+              <span>/person</span>
+              <h2 id="tipAmount" class="tipamo">$0.00</h2>
+            </div>
+            <div class="total-amount">
+              <p>Total</p>
+              <span>/person</span>
+              <h2 id="perPersonTotal" class="tipamo">$0.00</h2>
+            </div>
+            <button id="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

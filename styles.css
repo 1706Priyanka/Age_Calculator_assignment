@@ -1,0 +1,94 @@
+body {
+  box-sizing: border-box;
+  background-color: hsl(185, 41%, 84%);
+}
+
+.container {
+  background-color: hsl(185, 41%, 84%);
+  height: 500px;
+  width: 800px;
+  margin-left: 300px;
+  margin-top: 100px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.white-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  top: 50px;
+  left: 10px;
+  right: 10px;
+  position: absolute;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.right {
+  margin-left: 10px;
+  background-color: hsl(183, 100%, 15%);
+  padding: 5px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.left {
+  padding: 20px;
+  width: 100%;
+}
+
+.tipButtons button {
+  width: 60px;
+  color: hsl(189, 41%, 97%);
+  border: none;
+  background-color: hsl(183, 100%, 15%);
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#reset {
+  color: hsl(189, 41%, 97%);
+  border: none;
+  background-color: hsl(186, 14%, 43%);
+  padding: 8px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 40px;
+}
+
+#bill {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+#noOfPeople {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+label {
+  color: gray;
+}
+
+.tipamo {
+  float: right;
+  margin-top: -10px;
+  color: hsl(172, 67%, 45%);
+}
+
+p {
+  color: white;
+}
+
+span {
+  color: grey;
+}
